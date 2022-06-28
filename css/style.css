@@ -1,0 +1,283 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+/*header start*/
+.wrapper{
+	background-image: url(../images/adventure.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	overflow: hidden;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+.logo{
+	width: 9%;
+	padding-left: 10%;
+    margin-top: 10px;
+
+}
+.logo h3{
+	font-weight: 700;
+}
+.logo h4{
+	font-size: 14px;
+    font-weight: 100;
+    padding-left: 6px;
+}
+.menu{
+	padding-right: 10%;
+	margin-top:-34px;
+	width: 54%;
+	float:right;
+}
+.menu ul{
+	
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 5px 15px;
+	display: block;
+	transition: .5;
+	color: black;
+	font-weight: 600;
+
+}
+.menu ul li:last-child a{
+	
+	border:black 2px solid;
+	border-radius: 25px;
+}
+.menu ul li a:hover{
+    color: #fb386c;
+}
+.menu ul li:last-child a:hover{
+	background-color: black;
+	color: white;
+}
+/*header end*/
+/*banner start*/
+
+.banner{
+	display: block;
+	text-align: center;
+	line-height: 50px;
+}
+.title{
+	padding-top: 20%;
+    padding-bottom: 20%;
+}
+.title h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	color: #040414
+}
+.title i{
+
+	font-size: 25px;
+}
+.gift{
+	line-height: 20px;
+}
+.button{ 
+  border-radius: 25px;
+  background: #fb2056;
+  width: 125px;
+  height: 30px;
+  border-width: 0;
+}
+/*banner end*/
+/*speech start*/
+.speech{
+	color: #8c949c;
+	text-align: center;
+	background-color: #f4f5f9;
+	padding: 50px 0;
+}
+/*speech end*/
+/*event start*/
+.event{
+	padding-right: 25%;
+    padding-left: 25%;
+    display: inline-block;
+    margin: 5% 0;
+}
+.features{
+	margin: 0 0%;
+}
+.e_title{
+	padding-bottom: 7%;
+}
+.e_title h1{
+	font-family: sans-serif;
+	text-align: center;
+}
+.e_first{
+	text-align: center;
+	float: left;
+	padding: 10px 20px;
+	width: 43%;
+}
+.e_first img{
+	width: 100%;
+}
+.e_first h2{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 15px 0;
+}
+.e_first p{
+	color: #727880;
+	font-size: 14px;
+    line-height: 20px;
+}
+.e_first button{
+	border: none;
+	padding: 20px 0;
+	background-color: white;
+}
+.e_first button a{
+	letter-spacing: 2px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #fb386c;
+}
+.e_second{
+	text-align: center;
+	float: right;
+	padding: 10px 20px;
+    width: 43%
+}
+.e_second img{
+
+	width: 100%;
+}
+.e_second h2{
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 15px 0;
+}
+.e_second p{
+	color: #727880;
+	font-size: 14px;
+    line-height: 20px;
+}
+.e_second button{
+	border: none;
+	padding: 20px 0;
+	background-color: white;
+}
+.e_second button a{
+	letter-spacing: 2px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #fb386c;
+}
+/*event end*/
+/*explore start*/
+.explore{}
+.container{
+	background-image: url(../images/explore.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.content{
+	margin-left: 50%;
+	margin-right: 15%;
+	padding: 10% 0;
+}
+.content h1{
+	font-family: sans-serif;
+	color: white;
+	font-size: 60px;
+}
+.content p{
+	color: white;
+	padding: 35px 6px;
+}
+.content a{
+	font-size: 14px;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+	font-weight: 900;
+	text-decoration: none;
+	color: white;
+}
+/*explore end*/
+/*photos start*/
+.photos{
+	overflow: hidden;
+	padding: 5% 20%;
+}
+.destination{
+	width: 100%;
+}
+.text_part{
+	float: left;
+    width: 29%;
+    padding-right: 6%
+}
+.text_part h2{
+	font-family: sans-serif;
+}
+.text_part p{
+	color: #727880;
+    padding: 15% 0;
+    line-height: 20px;
+}
+
+.text_part a{
+	color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+.gellary{
+	
+}
+.img_part{
+	float: left;
+	width: 65%;
+}
+
+
+.img_part img{
+	width: 100%;
+}
+.column_left{
+    float: left;
+    width: 49.5%;
+}
+.column_right{
+	float: right;
+    width: 49.5%;
+}
+/*photos end*/
+/*footer start*/
+footer{
+	background-color: #fb2056;
+	padding: 30px 0;
+}
+footer p{
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+footer p a{
+	text-decoration: none;
+	color: white;
+}
+footer p a:hover{
+	color: black;
+}
+/*footer end*/
